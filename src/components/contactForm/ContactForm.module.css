@@ -1,0 +1,31 @@
+body {
+  margin: 30px;
+  background-color: #E9E9E9;
+}
+
+.book {
+  width: 500px;
+  padding: 10px 10px 20px 10px;
+  margin-left: 150px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+input {
+  margin-right: 40px;
+}
+
+.btn {
+  background-color: #ffe4e1;
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #ffb6c1;
+  color: #fff;
+}
+
+
