@@ -11,6 +11,10 @@ body {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
+.text {
+  text-shadow: 0 0 3px #FF0000;
+}
+
 input {
   margin-right: 40px;
 }
@@ -27,5 +31,6 @@ input {
   background-color: #ffb6c1;
   color: #fff;
 }
+
 
 

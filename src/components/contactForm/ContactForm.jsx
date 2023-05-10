@@ -14,21 +14,15 @@ export default class ContactForm extends Component {
     });
   };
 
-  handlSubmit = event => {
+  handleSubmit = event => {
     event.preventDefault();
-    let res = this.props.namesContact.includes(this.state.name);
-    if (res) {
-      alert(`${res.name} is already in contacts`);
-      this.setState({
-        name: '',
-      });
-    } else {
+    if (this.props.addContact) {
       this.props.addContact({ ...this.state });
-      this.setState({
-        name: '',
-        number: '',
-      });
     }
+    this.setState({
+      name: '',
+      number: '',
+    });
   };
 
   render() {
