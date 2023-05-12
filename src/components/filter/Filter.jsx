@@ -1,17 +1,16 @@
 import css from './Filter.module.css';
 import PropTypes from 'prop-types';
-//import css from '../contactForm/ContactForm.module.css';
 
 export const Filter = ({ handleChangeFilter, filter }) => {
   return (
-    <div className={css.book}>
-      <h2 className={css.text}>Contacts</h2>
+    <div className={css.contactsFilter}>
       <label>
         <p className={css.find}>Find contacts by name</p>
         <input
           className={css.input}
           name="filter"
           type="text"
+          placeholder="search..."
           value={filter}
           onChange={handleChangeFilter}
           pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"

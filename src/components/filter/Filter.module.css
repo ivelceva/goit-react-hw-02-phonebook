@@ -1,15 +1,9 @@
-body {
-  margin: 30px;
-  background-color: #E9E9E9;
-}
-
-.book {
+.contactsFilter {
   width: 500px;
   margin-left: 150px;
   padding: 10px 10px 20px 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  /* border: 1px solid #BFBFBF; */
+  border: 1px solid #BFBFBF;
   background-color: white;
-  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
-  /* margin: 0 auto; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  list-style: none;
 }
